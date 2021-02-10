@@ -1,0 +1,31 @@
+{
+    "parent": "eggohito:self",
+    "display": {
+        "icon": {
+            "item": "minecraft:fishing_rod",
+            "nbt": "{Enchantments: [{}]}"
+        },
+        "title": {
+            "text": "Reelistic Fishing"
+        },
+        "description": [
+            {
+                "text": "Makes fishing rods reel real fish (or other) entities instead of just items. The fishing bobber must be in open water to catch fish. Otherwise, you'll only get junk items",
+                "color": "gray"
+            },
+            {
+                "text": "\n\nVersion: 1.0",
+                "color": "gray"
+            }
+        ],
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": true,
+        "frame": "task"
+    },
+    "criteria": {
+        "grant_on_load": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
